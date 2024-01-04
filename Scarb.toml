@@ -1,0 +1,13 @@
+[package]
+name = "kill_switch"
+version = "0.1.0"
+edition = "2023_10"
+
+[lib]
+
+[dependencies]
+starknet = ">=2.4.1"
+
+[[target.starknet-contract]]
+sierra = true
+casm = false
